@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-// Using "stateless functional" syntax because there is no state
+// Using "stateless functional" syntax because this component does not contain state
 const Form = props => (
     <div>
         <form onSubmit={props.getWeather} id="form">

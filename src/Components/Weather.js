@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-// Using "stateless functional" syntax because there is no state
+// Using "stateless functional" syntax because this component does not contain state
 const Weather = props => (
     <div>
         { props.city && props.country && <p>Location: {props.city}, {props.country}</p> }
