@@ -4,7 +4,7 @@ class Form extends Component {
     render() {
         return (
             <div>
-                <form onSubmit={this.props.getWeather}>
+                <form onSubmit={this.props.getWeather} id="form">
                     <input type="text" name="city" placeholder="City..."/><br />
                     <input type="text" name="country" placeholder="Country..."/><br />
                     <button>Get Weather</button>
