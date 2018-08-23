@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Titles from './Components/Titles';
+import Title from './Components/Title';
 import Form from './Components/Form';
 import Weather from './Components/Weather';
 
@@ -46,8 +46,6 @@ class App extends Component {
     
 
         document.getElementById("form").reset();
-        console.log(data);
-
     }
 
     render() {
